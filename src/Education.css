@@ -1,0 +1,27 @@
+li {
+  font-size: 20px;
+}
+
+.title {
+  display:flex;
+  flex-direction: column;
+  width: 80vw;
+}
+
+.xToTheRight {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.deleteBtn {
+  color:red;
+  background-color:  rgb(5, 19, 5);
+  border-style:solid;
+  border-color: black;
+  font-size: 15px;
+  border-width: 1px;
+  padding: 1px 3px;
+  border-radius: 100%;
+  
+}
