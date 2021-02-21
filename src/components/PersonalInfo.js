@@ -93,7 +93,6 @@ class PersonalInfo extends Component {
             type="text" 
             id="numberInput"
           ></input>
-          <button type="submit">Add Personal Data</button>
         </form>
         <PersonalData 
         name = {name} lastName = {lastName}

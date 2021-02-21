@@ -17,18 +17,19 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Pdf targetRef={ref} filename="code-example.pdf">
-        {({ toPdf }) => <button id="pdfBtn" onClick={toPdf}>Generate Pdf</button>}
+        <Pdf  targetRef={ref} filename="code-example.pdf">
+        {({ toPdf }) => <a className="pdfBtn" id="pdfBtn" onClick={toPdf}>Generate Pdf</a>}
         </Pdf>
         <div ref={ref}> 
           <h1>Curriculum Vitae Generator</h1>
-          <h3>Personal Info</h3>
+          <h3 className="paddingtop">Personal Info</h3>
           <PersonalInfo/>
           <h3>Experience</h3>
           <Experience/>
           <h3>Education</h3>
           <Education/>
         </div>
+
       </div>
     );
   }

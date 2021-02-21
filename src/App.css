@@ -28,14 +28,20 @@ h3 {
   padding-left:1vw;
 }
 
+.paddingtop {
+  padding-top:4vh;
+}
+
 h1 {
   display:flex;
-  position:relative;
+  position:fixed;
   background-color:rgb(241, 8, 8);
   color:rgb(24, 36, 24);
   width:100%;
   left:0;
   top:0;
+  margin:0;
+
 }
 label {
   display:flex;
@@ -43,4 +49,19 @@ label {
 
 button {
   display:flex;
+}
+
+.pdfBtn {
+  overflow:hidden;
+  display:flex;
+  position:fixed;
+  left:80%;
+  top:5.5vh;
+  font-size: 20px;
+}
+
+.pdfBtn:hover {
+  color:blue;
+  text-decoration: underline;
+  cursor:pointer;
 }

@@ -15,13 +15,15 @@ li {
 }
 
 .deleteBtn {
-  color:red;
-  background-color:  rgb(5, 19, 5);
-  border-style:solid;
-  border-color: black;
-  font-size: 15px;
+  color:rgb(241, 233, 233);
+  border-style:none;
+  font-size: 20px;
   border-width: 1px;
   padding: 1px 3px;
   border-radius: 100%;
-  
+}
+
+.deleteBtn:hover {
+  color:blue;
+  cursor:pointer;
 }
